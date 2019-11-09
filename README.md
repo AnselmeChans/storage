@@ -1,16 +1,16 @@
 # storage
-Package python permettant d’enregistrer et consulter des évènements liés à des dates.
+Python package to record and view events related to dates.
 
 ## Description
 
-Un package python permettant d’enregistrer et consulter des évènements liés à des dates.
-Ce package est destiné à être utilisé et maintenu par d’autres développeurs de l’équipe. Le
-package doit implémenter une classe ​ DatetimeEventStore​ ayant deux méthodes
-principales:
-    ● DatetimeEventStore.store_event(at, event)​​ permettant de stocker un
-    évènement en l’associant à un ​ datetime.datetime​​ .
-    ● DatetimeEventStore.get_events(start, end)​​ permettant de récupérer les
-    évènements associés aux datetimes appartenant à la période spécifié en paramètre.
+A python package to record and view events related to dates.
+This package is intended to be used and maintained by other team developers. The
+package must implement a DatetimeEventStore class that has two main methods:
+
+    ● DatetimeEventStore.store_event (at, event) to store a
+    event by associating it with a datetime.datetime.
+    ● DatetimeEventStore.get_events (start, end) to retrieve the
+    events associated with datetimes belonging to the period specified in parameter.
 
 ## download and install
 
