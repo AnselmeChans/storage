@@ -7,10 +7,8 @@ A python package to record and view events related to dates.
 This package is intended to be used and maintained by other team developers. The
 package must implement a DatetimeEventStore class that has two main methods:
 
-    ● DatetimeEventStore.store_event (at, event) to store a
-    event by associating it with a datetime.datetime.
-    ● DatetimeEventStore.get_events (start, end) to retrieve the
-    events associated with datetimes belonging to the period specified in parameter.
+    ● DatetimeEventStore.store_event (at, event) to store a event by associating it with a datetime.datetime.
+    ● DatetimeEventStore.get_events (start, end) to retrieve the events associated with datetimes belonging to the period specified in parameter.
 
 ## download and install
 
